@@ -98,6 +98,13 @@
                android:layout_height="wrap_content"
                android:onClick="click"
                android:text="Cool Particle Sample"/>
+
+           <Button
+               android:id="@+id/btn_fireparticlesample"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:onClick="click"
+               android:text="Fire Particle Sample"/>
        </LinearLayout>
    </ScrollView>
 
