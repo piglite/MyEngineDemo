@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           <Button
+               android:id="@+id/btn_linesample"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:onClick="click"
+               android:text="LineSample"/>
+           <Button
+               android:id="@+id/btn_rectanglesample"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:onClick="click"
+               android:text="RectangleSample"/>
+           <Button
+               android:id="@+id/btn_spritesample"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:onClick="click"
+               android:text="SpriteSample"/>
+           <Button
+               android:id="@+id/btn_applyprimitive"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:onClick="click"
+               android:text="Apply Primitive"/>
+           <Button
+               android:id="@+id/btn_animatesprite"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:onClick="click"
+               android:text="Animate Sprite"/>
+           <Button
+               android:id="@+id/btn_textsample"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:onClick="click"
+               android:text="Text Sample"/>
+           <Button
+               android:id="@+id/btn_relativerotatesample"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:onClick="click"
+               android:text="Relative Rotate"/>
+
+           <Button
+               android:id="@+id/btn_tworectanglesample"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:onClick="click"
+               android:text="Two Rectangle"/>
+
+           <Button
+               android:id="@+id/btn_modifersample"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:onClick="click"
+               android:text="Modifer"/>
+           <Button
+               android:id="@+id/btn_entitymodifersample"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:onClick="click"
+               android:text="Entity Modifer"/>
+           <Button
+               android:id="@+id/btn_particlesample"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:onClick="click"
+               android:text="Particle Sample"/>
+           <Button
+               android:id="@+id/btn_simpleparticlesample"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:onClick="click"
+               android:text="Simple Particle"/>
+           <Button
+               android:id="@+id/btn_particlinterfaceimplesample"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:onClick="click"
+               android:text="Particle Sample 2"/>
+       </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>
