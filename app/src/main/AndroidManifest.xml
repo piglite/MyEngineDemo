@@ -36,7 +36,8 @@
         <activity android:name=".EntityModiferSampleActivity" />
         <activity android:name=".ParticleSampleActivity" />
         <activity android:name=".ParticleInterfaceImplSampleActiviey" />
-        <activity android:name=".ParticleSimpleSampleActivity"></activity>
+        <activity android:name=".ParticleSimpleSampleActivity" />
+        <activity android:name=".CoolParticleSampleActivity"></activity>
     </application>
 
 </manifest>
